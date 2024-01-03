@@ -1,5 +1,5 @@
 {% set name = "funlib.geometry" %}
-{% set version = "0.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/funlib.geometry-{{ version }}.tar.gz
-  sha256: fd6ae57068b84265d0f2ce73c7eeaf1b2409ddff2e2de6863db251e4b9408581
+  sha256: f96aea66b3f38b8bad5bb5c3f748350d5001093a774a13bf265923f8c51a010b
 
 build:
   noarch: python
